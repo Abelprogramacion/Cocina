@@ -1,0 +1,150 @@
+/* principio y logo */
+*{ padding: 0;
+    border: 0;}
+.conga{ width: 150px;}
+/* color de fondo */
+/* body{background-image: url(./assets/banners/fondo-madera-marron-o-textura_88281-3295.webp);} */
+        /* pagina Home */
+body{ background-image: url(assets/banners/fondo-madera-marron-o-textura_88281-3295.webp);}
+.encabezado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 15px 15px 0;}
+
+        /* agrandar y dar hover a links */
+.encabezado img:hover {
+        transform: scale(1.2);
+        transition-duration: 0.7s;
+        cursor: pointer;
+        }
+
+
+.links1:hover{background-color: aquamarine;
+    padding: 1rem;
+    transform: scale(1.2);
+    transition-duration: 0.7s;
+    cursor: pointer;}
+.links2:hover{background-color: aquamarine;
+    padding: 1rem;
+    transform: scale(1);
+    transition-duration: 0.7s;
+    cursor: pointer;}
+.links3:hover{background-color: aquamarine;
+    padding: 1rem;
+    transform: scale(1);
+    transition-duration: 0.7s;
+    cursor: pointer;}
+.links4:hover{
+    background-color: aquamarine;
+    padding: 1rem;
+    transform: scale(1);
+    transition-duration: 0.7s;
+    cursor: pointer;}
+/* estilo a los links */
+.links1{background-color: azure;  
+    line-height: 2.5; /* da espaciado entre el texto */
+    padding: .5rem;
+    border-radius: 10px;
+    border: outset red;}
+.links2{background-color: azure;
+    line-height: 2.5;  /* da espaciado entre el texto */
+    padding: .5rem;
+    border: outset red;
+    border-radius: 10px;}
+.links3{background-color: azure;
+    line-height: 2.5;  /* da espaciado entre el texto */
+    padding: .5rem;
+    border: outset red;
+    border-radius: 10px;}
+.links4{background-color: azure;
+    line-height: 2.5;  /* da espaciado entre el texto */
+    padding: .5rem;
+    border: outset red;
+    border-radius: 10px;}
+
+.links{ font-size: 1.5rem;
+    padding: 2rem;}
+
+/* saco los puntos */
+ul{list-style: none;
+    display: inline;}
+
+/* fieldset y ul */
+.caja1{color: rgba(248, 4, 4, 0.849);
+    font-size: large;
+    border: solid rgb(253, 4, 4) 1px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/banners/contacto.jpg);}
+.caja2{
+    background-color: blanchedalmond;
+    width: 300px; 
+    border-radius: 15px;
+    border: solid 2px rgba(248, 4, 4, 0.849);}
+.box1{padding-bottom: 2rem;}
+.box2{background-image: url(assets/banners/index.jpg);}
+.subtitulos{font-size: 1.5rem;
+    text-align: center;}
+
+    /* logos */
+.logos{width: 100px; 
+    height: 100px;
+    margin:1rem;}
+.logos:hover{transform: scale(1.2);
+    transition-duration: 0.7s;
+    cursor: pointer;}
+
+
+.redes{text-align: center;}
+
+
+
+/* titulo */
+.titulo1{text-align: center;
+    font-size: 3rem;
+color: beige;}
+
+/* Fin pagina home */
+/* pagina carta */
+.carousel{width: 25%;} 
+.carrusel{width: 100%; 
+    display: flex;
+    justify-content: center;}
+.contenedorPostre{
+    background-image: url(./assets/banners/postres.jpg);
+    background-repeat: no-repeat;
+    background-size: 145%;/* ajusta tamaño de imagen */}
+.pie{ color: white;}
+/* fin pagina carta */
+/* pagina contacto */
+.textoNosotros{color: white;
+    background-color: rgba(153, 68, 11, 0.993);
+border: outset;}
+
+
+.contenedorContacto{background-image: url(assets/banners/fondo-madera-marron-o-textura_88281-3295.webp);}
+.by{color: white;}
+.caja{
+    height: 400px;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    font-size: large;
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid black;}
+.mapaDerecha{
+    display: flex;
+    justify-content: right;
+    }
+.mapaIzquierda{width: 30%;
+    background-color: rgb(238, 60, 15);}
+    /* pagina contacto fin */
+
+    /* contenedor nosotros */
+    .contenedorNosotros{background-image: url(./assets/banners/nosotros.jpg);}
+
+    
