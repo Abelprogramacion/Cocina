@@ -20,23 +20,23 @@ body{ background-image: url(assets/banners/fondo-madera-marron-o-textura_88281-3
         }
 
 
-.links1:hover{background-color: aquamarine;
+.links1:hover{background-color: red;
     padding: 1rem;
     transform: scale(1.2);
     transition-duration: 0.7s;
     cursor: pointer;}
-.links2:hover{background-color: aquamarine;
+.links2:hover{background-color: red;
     padding: 1rem;
     transform: scale(1);
     transition-duration: 0.7s;
     cursor: pointer;}
-.links3:hover{background-color: aquamarine;
+.links3:hover{background-color: red;
     padding: 1rem;
     transform: scale(1);
     transition-duration: 0.7s;
     cursor: pointer;}
 .links4:hover{
-    background-color: aquamarine;
+    background-color: red;
     padding: 1rem;
     transform: scale(1);
     transition-duration: 0.7s;
@@ -46,22 +46,26 @@ body{ background-image: url(assets/banners/fondo-madera-marron-o-textura_88281-3
     line-height: 2.5; /* da espaciado entre el texto */
     padding: .5rem;
     border-radius: 10px;
-    border: outset red;}
+    border: outset red;
+    text-decoration: none;}
 .links2{background-color: azure;
     line-height: 2.5;  /* da espaciado entre el texto */
     padding: .5rem;
     border: outset red;
-    border-radius: 10px;}
+    border-radius: 10px;
+    text-decoration: none;}
 .links3{background-color: azure;
     line-height: 2.5;  /* da espaciado entre el texto */
     padding: .5rem;
     border: outset red;
-    border-radius: 10px;}
+    border-radius: 10px;
+    text-decoration: none;}
 .links4{background-color: azure;
     line-height: 2.5;  /* da espaciado entre el texto */
     padding: .5rem;
     border: outset red;
-    border-radius: 10px;}
+    border-radius: 10px;
+    text-decoration: none;}
 
 .links{ font-size: 1.5rem;
     padding: 2rem;}
@@ -120,7 +124,8 @@ color: beige;}
 /* pagina contacto */
 .textoNosotros{color: white;
     background-color: rgba(153, 68, 11, 0.993);
-border: outset;}
+border: outset;
+font-size: 1.5rem;}
 
 
 .contenedorContacto{background-image: url(assets/banners/fondo-madera-marron-o-textura_88281-3295.webp);}
